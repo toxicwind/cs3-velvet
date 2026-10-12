@@ -10,7 +10,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -29,7 +29,7 @@
     "version": 1,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -48,7 +48,7 @@
     "version": 1,
     "language": "vi",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -67,7 +67,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -86,7 +86,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -105,7 +105,7 @@
     "version": 3,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -124,7 +124,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -143,7 +143,7 @@
     "version": 3,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -162,7 +162,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -181,7 +181,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -197,10 +197,10 @@
     "apiVersion": 1,
     "url": "https://raw.githubusercontent.com/toxicwind/cs3-velvet/main/final_builds/XvideosGay.cs3",
     "fileSize": 16150,
-    "version": 1,
+    "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -219,7 +219,7 @@
     "version": 1,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -238,7 +238,7 @@
     "version": 1,
     "language": "vi",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -257,7 +257,7 @@
     "version": 4,
     "language": "vi",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -276,7 +276,7 @@
     "version": 3,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -295,7 +295,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -314,7 +314,7 @@
     "version": 3,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -333,7 +333,7 @@
     "version": 2,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -352,7 +352,7 @@
     "version": 1,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
@@ -363,20 +363,19 @@
   {
     "name": "Universal Morphe",
     "internalName": "UniversalMorphe",
-    "description": "Universal scraper (auto‑discovered 85 domains, regex fallback)",
-    "iconUrl": "https://raw.githubusercontent.com/toxicwind/cs3-velvet/main/icon.png",
+    "description": "placeholder",
     "apiVersion": 1,
     "url": "https://raw.githubusercontent.com/toxicwind/cs3-velvet/main/builds/universal.cs3",
     "fileSize": 226,
     "version": 1,
     "language": "en",
     "authors": [
-      "GayXXX"
+      "Velvet"
     ],
     "tvTypes": [
       "NSFW"
     ],
-    "status": 1,
+    "status": 0,
     "repositoryUrl": "https://github.com/toxicwind/cs3-velvet"
   }
 ]
