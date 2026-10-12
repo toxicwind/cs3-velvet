@@ -1,4 +1,4 @@
-# AGENTS.md — gayxxx-sovereign (`/home/toxic/projects/gayxxx-sovereign`)
+# AGENTS.md — cs3-velvet (`/home/toxic/cs3-velvet`)
 
 **Role**: CloudStream CS3 repository and plugin repackager / media streaming manifest for Sovereign.
 **Stack**: Android DEX, Gradle/Kotlin, JSON metadata, CloudStream plugin API.
