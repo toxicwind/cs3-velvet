@@ -1,0 +1,9 @@
+[submodule "resources/cloudstream-extensions"]
+	path = resources/cloudstream-extensions
+	url = https://github.com/recloudstream/extensions.git
+[submodule "resources/cs-repos"]
+	path = resources/cs-repos
+	url = https://github.com/recloudstream/cs-repos.git
+[submodule "resources/cloudstream-plugin-template"]
+	path = resources/cloudstream-plugin-template
+	url = https://github.com/cloudstream3/plugin-template.git

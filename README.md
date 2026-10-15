@@ -28,8 +28,36 @@ https://raw.githubusercontent.com/toxicwind/cs3-velvet/main/repo.json
 | ⏳ Pending | 1 | Placeholder — validation in progress |
 | **Total** | **20** | |
 
-> Full plugin list and metadata: [`plugins.json`](plugins.json)
-> Plugin builds live in [`final_builds/`](final_builds/) — canonical `.cs3` archives.
+> Full plugin list and metadata: [`plugins.json`](plugins.json) — now with enhanced search and filtering
+
+---
+
+## Enhanced Discovery
+
+This repository includes **cs3-search.py** — a fuzzy search and filter tool for finding plugins by name, description, category, or tag.
+
+### Search Examples
+
+```bash
+# Fuzzy search (handles typos)
+python3 cs3-search.py "twink"
+
+# Category filtering  
+python3 cs3-search.py "" --category gay
+
+# Tag filtering
+python3 cs3-search.py "" --tag bear --limit 3
+
+# Combined search + filters
+python3 cs3-search.py "bareback" --category gay --tag anal --limit 5
+```
+
+### Available Categories & Tags
+
+Categories: `gay`, `lesbian`, `transgender`, `bisexual`, `adult`  
+Tags include: `gay`, `lesbian`, `trans`, `bisexual`, `twink`, `bear`, `milf`, `teen`, `interracial`, `bareback`, `creampie`, `anal`, `oral`, `bdsm`, `solo`, `vr`, `cam`, `nsfw`, and many more.
+
+Run `python3 cs3-search.py --help` for full usage.
 
 ---
 
@@ -39,7 +67,7 @@ You know the type. Clean repacks. No bloat. No mystery meat. Just `classes.dex` 
 
 Nineteen builds. One `status: 0` placeholder (Universal Morphe — we'll get to it). The rest are `status: 1` and they work.
 
-If you're here, you already know what `GayStream` and `GayKinkyPorn` are. You know why `Xhamster` has a Vietnamese locale. You know the drill.
+If you're here, you already know what `GayStream` and `GayKinkyPorn` are. You know why `Xhamster` has Vietnamese metadata. You know the drill.
 
 We don't advertise. We just ship `.cs3` files that install and play.
 
@@ -66,7 +94,8 @@ We don't advertise. We just ship `.cs3` files that install and play.
 | File | Location | What it is |
 |:-----|:---------|:-----------|
 | `.cs3` builds | `final_builds/` | Zipped `classes.dex` + `manifest.json` |
-| `plugins.json` | repo root | Source of truth — versions, sizes, metadata |
+| `plugins.json` | repo root | Source of truth — versions, sizes, metadata + searchable categories/tags |
+| `cs3_search.py` | repo root | Fuzzy search and filter tool for plugin discovery |
 | `cs3_inspector.py` | repo root | Validates packages against embedded manifests |
 | `repo.json` | repo root | CloudStream v3 entry point |
 
